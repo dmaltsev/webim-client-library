@@ -19,7 +19,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "webim-client-library",
-            dependencies: ["SQLite"]),
+            dependencies: ["SQLite.swift"]),
         .testTarget(
             name: "webim-client-libraryTests",
             dependencies: ["webim-client-library"]),
