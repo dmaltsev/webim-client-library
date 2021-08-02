@@ -24,7 +24,8 @@
 //  SOFTWARE.
 //
 
-import Foundation
+import Foundations
+import UIKit
 
 /**
  Class that handles HTTP-request sending by SDK.

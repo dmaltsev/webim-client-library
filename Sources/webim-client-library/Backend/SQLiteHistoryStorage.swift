@@ -26,6 +26,7 @@
 
 import Foundation
 import SQLite
+import SQLite3
 
 /**
  Class that is responsible for history storage inside SQLite DB. Uses SQLite.swift library.
