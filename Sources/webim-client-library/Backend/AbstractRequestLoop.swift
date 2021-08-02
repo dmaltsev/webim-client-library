@@ -24,7 +24,7 @@
 //  SOFTWARE.
 //
 
-import Foundations
+import Foundation
 import UIKit
 
 /**
