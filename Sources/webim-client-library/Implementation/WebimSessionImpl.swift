@@ -638,7 +638,7 @@ final class HistoryPoller {
                 return
             }
             
-            if hasMore {
+            if !isInitial && hasMore {
                 self.requestHistory(since: revision,
                                     completion: self.createHistorySinceCompletionHandler())
             } else {
